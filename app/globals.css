@@ -847,7 +847,7 @@ body {
 
 /* -----------------------------------Display3___________________________________ */
 .Dislpay3_main {
-  margin-top: 10%;
+  margin-top: 0%;
   width: 100%;
   height: 300px;
   display: flex;
@@ -1169,7 +1169,7 @@ body {
   width: 100%;
   /* height: 700px; */
   position: relative;
-  margin-bottom: 150px;
+  margin-bottom: 400px;
 }
 .Main_furygang img {
   transform: scale(1);

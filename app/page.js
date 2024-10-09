@@ -24,7 +24,7 @@ export default function Home() {
           <Navbar />
           <Display />
           <Furygang />
-          <Display2 />
+          <Display2 className="mt-32	"></Display2>
           <Display3 />
           <Digitalcon />
           <CartoonCartoncard />
