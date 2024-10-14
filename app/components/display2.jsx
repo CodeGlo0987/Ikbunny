@@ -8,7 +8,7 @@ const Display2 = () => {
   console.log(hoverimg);
 
   return (
-    <div className="Mian_Displat2">
+    <div className="Mian_Displat2 overflow-hidden	">
       <div className="radiusback">
         <div className="display2item display2item1">
           <>
@@ -23,13 +23,13 @@ const Display2 = () => {
             >
               {/* {hoverimg ? ( */}
               <img
-                src="furry8.png"
+                src="furry 8.webp"
                 alt=""
                 className={`firsthover ${hoverimg ? "onhoverimg" : "onoutimg"}`}
               />
               {/* ) : ( */}
               <img
-                src="couple furry.png"
+                src="couple furry.webp"
                 alt=""
                 className={`secondhover ${
                   !hoverimg ? "onhoverimg" : "onoutimg"

@@ -26,7 +26,7 @@ const Page = () => {
           <div className="container-about-section">
             <div className="image-container-about-section">
               <img
-                src="sideimg2.png"
+                src="sideimg2.webp"
                 alt="Cartoon chicken character in a dynamic pose"
                 width="300"
                 height="300"

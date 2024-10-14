@@ -8,7 +8,7 @@ const Furygang = () => {
       duration={2}
       className="Main_furygang"
     >
-      <img src="gangfurrys.png" alt="" />
+      <img src="gangfurrys.webp" alt="" />
       <div className="furygangBottom">
         <div className="furygangcontent">
           <div className="furygangcontentitem">
@@ -16,7 +16,7 @@ const Furygang = () => {
             <h1>Furry Gang</h1>
           </div>
         </div>
-        <img src="furrygangbottom.png" alt="" />
+        <img src="furrygangbottom.webp" alt="" />
       </div>
     </ScrollAnimation>
   );

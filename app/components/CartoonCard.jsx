@@ -1,64 +1,64 @@
 import React from "react";
-import { anime5 } from "@/public/anime6.png";
+import { anime5 } from "@/public/anime6.webp";
 import Image from "next/image";
 import Link from "next/link";
 
 const CartoonCartoncard = () => {
   return (
-    <div className="MainCartoncard">
+    <div className="MainCartoncard overflow-hidden	">
       {" "}
       <div className="Cartoncard-container">
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="anime6.png" />
+            <img alt="Green Dragon illustration" src="anime6.webp" />
           </div>
           <div>
             {" "}
-            <Link href={"anime6.png"} target="_blank">
+            <Link href={"anime6.webp"} target="_blank">
               <button className="cardorg">Grab It Now</button>
             </Link>
           </div>
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="chinees furry.png" />
+            <img alt="Green Dragon illustration" src="chinees furry.webp" />
           </div>
           <div>
             {" "}
-            <Link href={"chinees furry.png"} target="_blank">
+            <Link href={"chinees furry.webp"} target="_blank">
               <button className="cardpurple">Grab It Now</button>
             </Link>
           </div>
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="furry19.png" />
+            <img alt="Green Dragon illustration" src="furry19.webp" />
           </div>
           <div>
             {" "}
-            <Link href={"furry19.png"} target="_blank">
+            <Link href={"furry19.webp"} target="_blank">
               <button className="cardorg">Grab It Now</button>
             </Link>
           </div>
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="furry14.png" />
+            <img alt="Green Dragon illustration" src="Capture 26;.webp" />
           </div>
           <div>
             {" "}
-            <Link href="furry14.png" target="_blank">
+            <Link href="furry14.webp" target="_blank">
               <button className="cardpurple">Grab It Now</button>
             </Link>
           </div>
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="furry 18.png" />
+            <img alt="Green Dragon illustration" src="furry 18.webp" />
           </div>
           <div>
             {" "}
-            <Link href={"furry 18.png"} target="_blank">
+            <Link href={"furry 18.webp"} target="_blank">
               <button className="cardorg">Grab It Now</button>
             </Link>
           </div>

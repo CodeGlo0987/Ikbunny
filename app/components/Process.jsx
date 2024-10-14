@@ -3,7 +3,7 @@ import React from "react";
 const Process = () => {
   return (
     <div>
-      <div className="Processcontainer">
+      <div className="Processcontainer overflow-hidden	">
         <div className="Processcontent">
           <h2>You must know</h2>
           <h1>How do we start your project ?</h1>
@@ -48,7 +48,7 @@ const Process = () => {
         </div>
         <div className="Processimage-container">
           <img
-            src="ikbunnyproc.png"
+            src="ikbunnyproc.webp"
             alt="Cartoon alligator with a surprised expression, standing on two legs, with a purple and orange background"
           />
         </div>

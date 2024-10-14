@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Display3 = () => {
   return (
-    <div className="Dislpay3_main">
+    <div className="Dislpay3_main overflow-hidden	">
       <ScrollAnimation
         duration={1}
         animateIn="bounceInLeft"

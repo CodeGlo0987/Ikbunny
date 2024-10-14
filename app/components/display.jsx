@@ -4,7 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import Link from "next/link";
 const Display = () => {
   return (
-    <div className="Main_display">
+    <div className="Main_display overflow-hidden	">
       <ScrollAnimation
         animateIn="bounceInLeft"
         // duration={1}
@@ -76,7 +76,7 @@ const Display = () => {
             <div id="card">
               <p id="prompt"></p>
               <div className="title">
-                <img src="prince fury.png" alt="" />
+                <img src="prince fury.webp" alt="" />
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ const Display = () => {
             <div id="card">
               <p id="prompt"></p>
               <div className="title">
-                <img src="red furry.png" alt="" />
+                <img src="red furry.webp" alt="" />
               </div>
             </div>
           </div>

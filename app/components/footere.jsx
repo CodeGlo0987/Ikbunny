@@ -10,7 +10,7 @@ const Footer = () => {
             <img
               alt="Cartoon cat logo"
               height="50"
-              src="rabbit.png"
+              src="rabbit.webp"
               width="50"
             />
             <div>

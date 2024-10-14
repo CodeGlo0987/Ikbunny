@@ -40,7 +40,7 @@ function HomeContct() {
   return (
     <>
       <Toaster />
-      <div className="cont">
+      <div className="cont overflow-hidden	">
         <div className="container-contact">
           <div className="form-container-contact">
             <h2 className="pp">Start your project now</h2>
@@ -96,7 +96,7 @@ function HomeContct() {
             <img
               alt="Cartoon character with a backpack, smiling and giving a thumbs up"
               height="300"
-              src="ikbunnyform.png"
+              src="ikbunnyform.webp"
               width="300"
             />
           </div>

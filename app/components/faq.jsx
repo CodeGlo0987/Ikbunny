@@ -1,7 +1,7 @@
 import React from "react";
 const Faq = () => {
   return (
-    <div className="MainFaqs">
+    <div className="MainFaqs overflow-hidden	">
       <h1>FAQS</h1>
       <div className="details">
         <details className="details__container">

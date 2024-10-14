@@ -90,7 +90,7 @@ const Page = () => {
               <img
                 alt="Cartoon of a gorilla on top of a car with a scared driver inside"
                 height="400"
-                src="PanNgD.png"
+                src="PanNgD.webp"
                 width="400"
               />
             </div>

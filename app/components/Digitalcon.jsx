@@ -5,14 +5,14 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 const Digitalcon = () => {
   return (
-    <div className="MainDigitalcontainer">
+    <div className="MainDigitalcontainer overflow-hidden	">
       <div className="Digitalcontainer">
         <div className="image-container">
           <ScrollAnimation duration={1} animateIn="bounceInLeft">
             <img
               alt="Cartoon dog character in a circular background with orange and purple colors"
               height="400"
-              src="sideimg.png"
+              src="sideimg.webp"
               width="400"
             />
           </ScrollAnimation>
