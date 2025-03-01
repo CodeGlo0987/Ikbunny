@@ -2,7 +2,7 @@
 import "animate.css/animate.compat.css";
 
 import Footer from "./components/footere";
-
+import Navbar from '../components/navbar';
 import Displayfinal from "./components/displayfinal";
 import About2 from "./components/about2";
 import FurryGallery from "./components/portfolio";
@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <div className="w-full border border-red flex flex-col items-center	 justify-center	">
         <div className="Mainbody flex flex-col	 justify-center">
+    <Navbar />
           <Displayfinal />
           <About2 />
           {/* <Display />
