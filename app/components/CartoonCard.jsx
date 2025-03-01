@@ -1,13 +1,11 @@
 import React from "react";
-import { anime5 } from "@/public/anime6.webp";
-import Image from "next/image";
-import Link from "next/link";
+
 
 const CartoonCartoncard = () => {
   return (
     <div className="MainCartoncard overflow-hidden	">
       {" "}
-      <div className="Cartoncard-container">
+      {/* <div className="Cartoncard-container">
         <div className="Cartoncard">
           <div>
             <img alt="Green Dragon illustration" src="/anime6.webp" />
@@ -63,7 +61,7 @@ const CartoonCartoncard = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

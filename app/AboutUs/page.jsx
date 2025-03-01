@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
-import CartoonCartoncard from "../components/CartoonCard";
 import { FaCircle } from "react-icons/fa";
-import Display3 from "../components/display3";
-import HomeContct from "../components/Homeconatct";
 import Navbar from "../components/navbar";
 import Link from "next/link";
 import Footer from "../components/footere";
