@@ -3,7 +3,6 @@ import "animate.css/animate.compat.css";
 
 import Footer from "./components/footere";
 
-import Faq from "./components/faq";
 import Displayfinal from "./components/displayfinal";
 import About2 from "./components/about2";
 import FurryGallery from "./components/portfolio";
@@ -27,7 +26,7 @@ export default function Home() {
         </div>
         <div className="w-full">
           {" "}
-          <Footer />
+          
         </div>
       </div>
     </>
