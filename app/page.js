@@ -9,9 +9,11 @@ import FurryGallery from "./components/portfolio";
 export default function Home() {
   return (
     <>
+    
+    <Navbar />
       <div className="w-full border border-red flex flex-col items-center	 justify-center	">
         <div className="Mainbody flex flex-col	 justify-center">
-    <Navbar />
+
           <Displayfinal />
           <About2 />
           {/* <Display />
