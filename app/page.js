@@ -2,7 +2,7 @@
 import "animate.css/animate.compat.css";
 
 import Footer from "./components/footere";
-import Navbar from '../components/navbar';
+import Navbar from './components/navbar';
 import Displayfinal from "./components/displayfinal";
 import About2 from "./components/about2";
 import FurryGallery from "./components/portfolio";
