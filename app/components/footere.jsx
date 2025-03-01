@@ -30,7 +30,7 @@ const Footer = () => {
             <li>601 W Parmer Ln, Ste 370 PMB</li>
             <li> 2000 Austin, TX 78727 USA</li>
             <li>+447706413238</li>
-            <li>officialikbunny@gmail.com</li>
+            <li>ikbunnyofficial@gmail.com</li>
           </ul>
         </div>
         <div className="footer-column">

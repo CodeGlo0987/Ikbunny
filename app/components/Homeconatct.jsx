@@ -40,7 +40,7 @@ function HomeContct() {
   return (
     <>
       <Toaster />
-      <div className="cont overflow-hidden	">
+      <div className="cont overflow-hidden	bg-[#5ce1e6]">
         <div className="container-contact">
           <div className="form-container-contact">
             <h2 className="pp">Start your project now</h2>

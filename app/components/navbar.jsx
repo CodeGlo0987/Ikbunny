@@ -26,7 +26,7 @@ const Navbar = () => {
               <Link href={"/"}>HOME</Link>
             </li>
             <li>
-              <Link href={"Process"}>PROCESS</Link>
+              <Link href={"/Gallery"}>GALLERY</Link>
               {/* <ul>
                 <li>
                   <Link href="1">BUY</Link>
@@ -40,7 +40,7 @@ const Navbar = () => {
               </ul> */}
             </li>
             <li>
-              <Link href={"/AboutUs"}>ABOUT</Link>
+              <Link href={"/Faq"}>FAQ</Link>
               {/* <ul>
                 <li>
                   <a href="1">FAQ</a>
@@ -56,19 +56,20 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link href={"#"}>COLLECTION</Link>
+              <Link href={"#"}>MORE</Link>
               <ul>
                 <li>
-                  <Link href={"Collection"}>ALL COLLECTION</Link>
+                  <Link href={"Collection"}>FURRY ART</Link>
                 </li>
                 <li>
-                  <Link href={"Newarrival"}>NEW-ARRIVAL</Link>
+                  {/* <Link href={"Newarrival"}>NEW-ARRIVAL</Link> */}
                 </li>
               </ul>
             </li>
           </ul>
         </nav>
       </header>
+      {/* <img src="/headimg.png" alt="" className="w-full absolute z-50" /> */}
     </div>
   );
 };

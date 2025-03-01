@@ -3,7 +3,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgb(255, 94, 0);
+  background-color: #fa6ec4;
   /* Ajustar el 0.7 en rgba para mas transparencia, 1=opaco*/
   padding: 10px 10%;
   /* Cambiado de 0px a 10px para darle algo de padding */
@@ -19,9 +19,11 @@ header {
   color: #ffffff;
   font-weight: 700;
 }
+
 .logo img {
   width: 200px;
 }
+
 .navigation ul {
   list-style: none;
 }
@@ -42,7 +44,7 @@ header {
 }
 
 .header .navigation ul li a:hover {
-  background-color: rgba(174, 0, 255, 0.7);
+  background-color: #5ce1e6;
   /* Cambiar la transparencia ajustando el valor de alfa */
 }
 
@@ -69,7 +71,7 @@ header {
   width: 100%;
 }
 
-.header .navigation ul li:hover > ul {
+.header .navigation ul li:hover>ul {
   display: initial;
 }
 
@@ -133,7 +135,7 @@ header {
     left: 0;
   }
 
-  #toggle:checked ~ .navigation {
+  #toggle:checked~.navigation {
     display: block;
   }
 }
@@ -145,6 +147,7 @@ header {
   align-items: center;
   padding: 0 4%;
 }
+
 /*Aqui se cambia el color del fondo de h1, h2, y h3 */
 .home-content {
   /*background: yellowgreen;*/
@@ -177,6 +180,7 @@ header {
   height: 50px;
   /*background: yellowgreen;*/
 }
+
 /*color y borde de botones */
 .btn-box a {
   position: relative;
@@ -197,6 +201,7 @@ header {
   overflow: hidden;
   transition: 0.5s;
 }
+
 /* Color de boton izquiero */
 .btn-box a:hover {
   color: #0dbfff;
@@ -206,10 +211,12 @@ header {
   background: transparent;
   color: #0dbfff;
 }
+
 /*color del boton derecho*/
 .btn-box a:nth-child(2):hover {
   color: #081b29;
 }
+
 .btn-box a:nth-child(2)::before {
   background: #0dbfff;
 }

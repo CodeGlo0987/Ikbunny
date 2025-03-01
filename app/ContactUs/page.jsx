@@ -19,15 +19,15 @@ const Page = () => {
   return (
     <div className="w-full flex flex-col items-center	 justify-center	">
       <Navbar />
-      <div className="custom-header">
+      {/* <div className="custom-header">
         <div className="custom-header-content">
           <h1>ContactUs</h1>
           <div className="custom-breadcrumb">
             <Link href={"/"}>Home</Link> ContactUs
           </div>
         </div>
-      </div>
-      <div className="Mainbody">
+      </div> */}
+      <div className="Mainbody pt-24">
         <HomeContct />
         <div className="contact-containers">
           <div className="contact-sections">
