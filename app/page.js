@@ -21,12 +21,12 @@ export default function Home() {
           <CartoonCartoncard />
           <HomeContct /> */}
           <FurryGallery />
-          <Faq />
+          
           {/* <Card /> */}
         </div>
         <div className="w-full">
           {" "}
-          
+          <Footer />
         </div>
       </div>
     </>
