@@ -10,7 +10,7 @@ const CartoonCartoncard = () => {
       <div className="Cartoncard-container">
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="anime6.webp" />
+            <img alt="Green Dragon illustration" src="/anime6.webp" />
           </div>
           <div>
             {" "}
@@ -21,7 +21,7 @@ const CartoonCartoncard = () => {
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="chinees furry.webp" />
+            <img alt="Green Dragon illustration" src="/chinees furry.webp" />
           </div>
           <div>
             {" "}
@@ -32,7 +32,7 @@ const CartoonCartoncard = () => {
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="furry19.webp" />
+            <img alt="Green Dragon illustration" src="/furry19.webp" />
           </div>
           <div>
             {" "}
@@ -43,7 +43,7 @@ const CartoonCartoncard = () => {
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="Capture 26;.webp" />
+            <img alt="Green Dragon illustration" src="/Capture 26;.webp" />
           </div>
           <div>
             {" "}
@@ -54,7 +54,7 @@ const CartoonCartoncard = () => {
         </div>
         <div className="Cartoncard">
           <div>
-            <img alt="Green Dragon illustration" src="furry 18.webp" />
+            <img alt="Green Dragon illustration" src="/furry 18.webp" />
           </div>
           <div>
             {" "}
