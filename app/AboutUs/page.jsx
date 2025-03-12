@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { FaCircle } from "react-icons/fa";
-import Navbar from "../components/navbar";
 import Link from "next/link";
 import Footer from "../components/footere";
 import Display2 from "../components/display2";
@@ -9,7 +8,7 @@ import Display2 from "../components/display2";
 const Page = () => {
   return (
     <div className="w-full  flex flex-col items-center	 justify-center	">
-      <Navbar />
+
       <div className="custom-header">
         <div className="custom-header-content">
           <h1>About IKBUNNY</h1>

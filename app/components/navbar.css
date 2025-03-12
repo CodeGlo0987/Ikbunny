@@ -24,6 +24,11 @@ header {
   width: 200px;
 }
 
+.navigation {
+  position: absolute;
+  right: 3.5%;
+}
+
 .navigation ul {
   list-style: none;
 }

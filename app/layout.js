@@ -1,5 +1,6 @@
 import localfont from "next/font/local";
 import "./globals.css";
+import Navbar from "./components/navbar";
 
 const Orbitrons = localfont({
   src: [
@@ -29,7 +30,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${Orbitrons.variable} antialiased`}>{children}</body>
+      <body className={`${Orbitrons.variable} antialiased`}>
+        <>
+          <Navbar />
+          {children}
+        </>
+      </body>
     </html>
   );
 }

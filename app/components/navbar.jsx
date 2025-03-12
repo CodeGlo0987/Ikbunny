@@ -4,10 +4,10 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <div>
-      <header className="header">
+      <header className="header Bebas Orbitrons">
         <div className="logo">
           <Link href={"/"}>
-            <img src="logo.webp" alt="" />
+            <img src="IK.png" alt="" className="w-[50px] relative left-[-100px]" />
           </Link>
         </div>
         <input type="checkbox" id="toggle" />

@@ -1,11 +1,8 @@
 import React from 'react'
-import Navbar from '../components/navbar'
-import Footer from '../components/footere'
 
 const Page = () => {
     return (
         <div className='pt-24'>
-            <Navbar />
             <div className="flex flex-col md:flex-row text-white">
                 <div className="relative w-full md:w-1/2">
                     <img alt="Colorful fursuit characters in a park" className="w-full h-full object-cover" height="800" src="https://storage.googleapis.com/a1aa/image/Xtz2rcoxiEFES0ePwC9zQu7TDnTJtX1SuBIo9c9cjdQ.jpg" width="600" />
@@ -22,85 +19,74 @@ const Page = () => {
                 <div className="w-full md:w-1/2 p-8 bg-[#5ce1e6]">
                     <div className="mb-8">
                         <h2 className="text-xl font-bold">
-                            Do you make Partial fursuits
+                            Do you make partial fursuits?
                         </h2>
                         <p>
-                            Yes we do partial fursuits. Those include the head, hand, feet and tail. Sleeves can be requested.
+                            Yes, I offer partial fursuits. These typically include the head, hands, feet,
+                            and tail. You can also request sleeves
                         </p>
                     </div>
                     <div className="mb-8">
                         <h2 className="text-xl font-bold">
-                            Do I need to make a DTD?
+                            Can I wear glasses inside the head?
+
                         </h2>
                         <p>
-                            For a full costume yes, we need one. A Tutorial can be found
-                            <a className="text-blue-400 underline" href="#">
-                                here
-                            </a>
+                            This depends on the design and fit of the head. I try to make the head fit
+                            comfortably to your face, but I recommend contacts since fitting glasses
+                            inside might be uncomfortable.
                         </p>
                     </div>
 
 
                     <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you ship internationally?</h2>
-                        <p>Yes! We ship worldwide. Shipping costs to some countries can vary from $150-$600.</p>
-                    </div>
-
-                    <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you do payment plans?</h2>
-                        <p>
-                            Yes! We always start with a 30% nonrefundable deposit, from there you can make payments on your invoice.
+                        <h2 className="text-xl font-bold">Do you ship internationally?
+                        </h2>
+                        <p>Yes! I ship worldwide. Shipping costs vary depending on the country, and I
+                            will provide you with an estimate when processing your order.
                         </p>
                     </div>
 
                     <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you work with minors?</h2>
-                        <p>
-                            We will work with a parental guardian with those under the age of 18. Remember our costumes are custom made
-                            to your fit, so it is suggested you get a partial suit until you stop growing.
-                        </p>
-                    </div>
-
-                    <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you make spare fursuit parts? EX: paws, tail, bodies</h2>
-                        <p>
-                            We occasionally will make spare parts for existing clients. We typically don&lsquo;t offer to the general public
-                            unless we state otherwise on social media.
-                        </p>
-                    </div>
-
-                    <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you make copyright characters?</h2>
-                        <p>
-                            We will make your custom OC that is inspired by certain characters, but we will not recreate any copyright characters.
-                        </p>
-                    </div>
-
-                    <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you add electronics? EX: fans, lights</h2>
-                        <p>
-                            We do not offer any electronics for your suit, but you can let us know if you plan to yourself so we can create extra space.
-                        </p>
-                    </div>
-
-                    <div className="mb-8">
-                        <h2 className="text-xl font-bold">Do you have pets in your workshop?</h2>
-                        <p>
-                            We have shop dogs that roam around but do not typically interact with our materials.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h2 className="text-xl font-bold">
-                            Can you wear glasses inside your heads?
+                        <h2 className="text-xl font-bold">Do you offer payment plans?
                         </h2>
                         <p>
-                            Varies on options &amp; clients face as we try to make the heads form fit to your head. Please tell us ahead of time. We generally think its uncomfortable to fit lenses inside so contacts at highly recommended.
+                            Absolutely! I start with a 30% non-refundable deposit, and then you can
+                            pay the remaining balance in installments.
                         </p>
                     </div>
+
+                    <div className="mb-8">
+                        <h2 className="text-xl font-bold">Do you make spare parts such as paws, tails, or bodies?
+                        </h2>
+                        <p>
+                            Yes, I create spare parts based on the client&apos;s size and preferences, such
+                            as hand/foot paws, tails, bodies, etc.
+                        </p>
+                    </div>
+
+                    <div className="mb-8">
+                        <h2 className="text-xl font-bold">Do you add electronics like fans or lights to suits?
+                        </h2>
+                        <p>
+                            I do not provide electronics, but if you plan to install electronics yourself, let
+                            me know, and I can create extra space in the suit for them.
+                        </p>
+                    </div>
+
+                    <div className="mb-8">
+                        <h2 className="text-xl font-bold">Do you have pets in your workshop?
+                        </h2>
+                        <p>
+                            No, I do not have any pets in my workshop. In fact, I keep all items
+                            completely separate from pets to ensure no harm comes to any of the
+                            materials.
+                        </p>
+                    </div>
+
+
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

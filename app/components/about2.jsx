@@ -16,7 +16,7 @@ const About2 = () => {
 
                         </h3>
                         <p class="mb-4 w-[90%]">
-                            My name is Issac Kenzo, originally from Manaus, and now residing in
+                            My name is Ivano Kai, originally from Manaus, and now residing in
                             the US. My passion for fursuit designing began years ago and has
                             since turned into a profession that I truly enjoy. I created my first
                             fursuit in 2016, and since then, I’ve made countless fursuits, although

@@ -3,15 +3,15 @@ import "animate.css/animate.compat.css";
 
 import Footer from "./components/footere";
 
-import Faq from "./components/faq";
 import Displayfinal from "./components/displayfinal";
 import About2 from "./components/about2";
-import FurryGallery from "./components/portfolio";
+import MasonryGallery from "./components/mainart";
 export default function Home() {
   return (
     <>
       <div className="w-full border border-red flex flex-col items-center	 justify-center	">
         <div className="Mainbody flex flex-col	 justify-center">
+          {/* <Navbar /> */}
           <Displayfinal />
           <About2 />
           {/* <Display />
@@ -21,8 +21,8 @@ export default function Home() {
           <Digitalcon />
           <CartoonCartoncard />
           <HomeContct /> */}
-          <FurryGallery />
-          <Faq />
+          <MasonryGallery />
+          {/* <Faq /> */}
           {/* <Card /> */}
         </div>
         <div className="w-full">

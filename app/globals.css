@@ -7,6 +7,10 @@
   --foreground: #171717;
 }
 
+.Bebas {
+  font-family: var(--font--bebas);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -1095,7 +1099,7 @@ body {
   /* max-width: 1200px; */
   align-items: flex-start;
   width: 100%;
-  height: 300px;
+  height: 100px;
   margin: 0 auto;
 }
 
@@ -1105,7 +1109,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 5px 20px;
   min-width: 200px;
 }
 
@@ -1114,18 +1118,18 @@ body {
   font-family: var(--font--bebas);
   text-align: left;
   color: white;
-  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .footer-column p,
 .footer-column ul {
-  margin: 0;
+  margin: 0px 0 0 0;
   padding: 0;
   list-style: none;
 }
 
 .footer-column ul li {
-  margin: 10px 0;
+  margin: 0px 0;
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -1744,15 +1748,16 @@ body {
 }
 
 .image-container-contact {
-  width: 40%;
+  width: 50%;
   display: flex;
   justify-content: center;
   position: relative;
 }
 
 .image-container-contact img {
-  border-radius: 50%;
-  border: 10px solid #fa6ec4;
+  width: 800px;
+  position: relative;
+  right: -100px;
 }
 
 @media (max-width: 768px) {
@@ -1766,6 +1771,12 @@ body {
     /* overflow: hidden; */
   }
 
+  .image-container-contact img {
+    width: 800px;
+    position: relative;
+    right: 0px;
+  }
+
   #container-contact {
     display: flex;
     flex-direction: column-reverse;
@@ -1773,12 +1784,13 @@ body {
 
   .container-contact {
     margin-top: 70px;
+    padding: 300px 0 200px 0;
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
     /* margin: 500px 0; */
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .image-container-contact {
@@ -1973,7 +1985,7 @@ body {
 
 @media (max-width: 768px) {
   .custom-header {
-    background-image: url("../public/aboutback.webp");
+    /* background-image: url("../public/aboutback.webp"); */
     background-size: 150% 100%;
     margin-top: 40%;
     height: 200px;
@@ -1990,7 +2002,7 @@ body {
 
 @media (max-width: 480px) {
   .custom-header {
-    background-image: url("../public/aboutback.webp");
+    /* background-image: url("../public/aboutback.webp"); */
     background-size: 100% 100%;
     height: 150px;
   }

@@ -1,24 +1,12 @@
 import React from "react";
 import Footer from "../components/footere";
-import Link from "next/link";
-import Navbar from "../components/navbar";
+
 import HomeContct from "../components/Homeconatct";
-import {
-  FaBehance,
-  FaEnvelope,
-  FaFacebook,
-  FaInstagram,
-  FaMap,
-  FaPhone,
-  FaPinterest,
-  FaTwitter,
-  FaYoutube,
-} from "react-icons/fa";
 
 const Page = () => {
   return (
     <div className="w-full flex flex-col items-center	 justify-center	">
-      <Navbar />
+
       {/* <div className="custom-header">
         <div className="custom-header-content">
           <h1>ContactUs</h1>
@@ -29,7 +17,7 @@ const Page = () => {
       </div> */}
       <div className="Mainbody pt-24">
         <HomeContct />
-        <div className="contact-containers">
+        {/* <div className="contact-containers">
           <div className="contact-sections">
             <div>
               <h2>Get in touch</h2>
@@ -99,7 +87,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>

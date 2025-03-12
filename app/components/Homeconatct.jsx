@@ -43,13 +43,12 @@ function HomeContct() {
       <div className="cont overflow-hidden	bg-[#5ce1e6]">
         <div className="container-contact">
           <div className="form-container-contact">
-            <h2 className="pp">Start your project now</h2>
-            <h1>Wanted to create your own Furry art ?</h1>
+            {/* <h2 className="pp">Start your project now</h2> */}
+            <h1>GET IN TOUCH TEXT
+            </h1>
             <p>
-              Absolutely! At ikbunny, we’re excited to help you dive into the
-              vibrant world of furry art. Whether you’re a seasoned artist or
-              just starting out, there are plenty of ways to express your
-              creativity.
+              Have a question or interested in a Fursuit and Art commission? Feel free to reach out! I’ll
+              get back to you as soon as possible
             </p>
             <form onSubmit={(e) => Formhandle(e)}>
               <input
@@ -96,8 +95,8 @@ function HomeContct() {
             <img
               alt="Cartoon character with a backpack, smiling and giving a thumbs up"
               height="300"
-              src="ikbunnyform.webp"
-              width="300"
+              src="contimg.jfif"
+
             />
           </div>
         </div>
